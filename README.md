@@ -13,8 +13,8 @@ The goal is to build a linear regression model to fit this data.
 
 ## Linear Regression Model
 We will fit the linear regression parameters $(w,b)$ to our dataset.
-- The model function for linear regression, which is a function that maps from `x` (city population) to `y` (restaurant's monthly profit for that city) is represented as
-    𝑓𝑤,𝑏(𝑥)=𝑤𝑥+𝑏
+- The model function for linear regression, which is a function that maps from `x` (city population) to `y` (restaurant's monthly profit for that city) is represented as  
+        𝑓(𝑥)=𝑤𝑥+𝑏
 
 - To train a linear regression model, we want to find the best $(w,b)$ parameters that fit our dataset.  
 
@@ -28,4 +28,4 @@ We will fit the linear regression parameters $(w,b)$ to our dataset.
   - With each step of gradient descent, your parameters $(w,b)$ come closer to the optimal values that will achieve the lowest cost $J(w,b)$.
   
 
-- The trained linear regression model can then take the input feature $x$ (city population) and output a prediction 𝑓𝑤,𝑏(𝑥) (predicted monthly profit for a restaurant in that city).
+- The trained linear regression model can then take the input feature $x$ (city population) and output a prediction 𝑓(𝑥) (predicted monthly profit for a restaurant in that city).
