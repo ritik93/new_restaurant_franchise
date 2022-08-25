@@ -14,7 +14,7 @@ The goal is to build a linear regression model to fit this data.
 ## 1 - Linear Regression Model
 We will fit the linear regression parameters $(w,b)$ to our dataset.
 - The model function for linear regression, which is a function that maps from `x` (city population) to `y` (restaurant's monthly profit for that city) is represented as
-    $$f_{w,b}(x) = wx + b$$
+    $f_{w,b}(x) = wx + b$
 - To train a linear regression model, you want to find the best $(w,b)$ parameters that fit your dataset.  
 
     - To compare how one choice of $(w,b)$ is better or worse than another choice, you can evaluate it with a cost function $J(w,b)$
